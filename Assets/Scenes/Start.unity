@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -247, y: 190.41}
-  m_SizeDelta: {x: 609, y: 138.1728}
+  m_AnchoredPosition: {x: -212, y: 234}
+  m_SizeDelta: {x: 879.025, y: 192.7846}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730877054
 MonoBehaviour:
@@ -179,11 +179,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programmin by: Vanu\u0161 Halenta\nArt sprites by: Karol\xEDna Michella
-    Holly"
+  m_text: 'Programmin by: Hanus Valenta
+
+    Art sprites by: Karolina  Holly'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
+  m_sharedMaterial: {fileID: 6803003060814531982, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -291,8 +292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 347.9741, y: 50}
+  m_AnchoredPosition: {x: -0.000019073, y: 0}
+  m_SizeDelta: {x: 528.4965, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047753244
 MonoBehaviour:
@@ -316,8 +317,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Very Very Cool Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
+  m_sharedMaterial: {fileID: 6803003060814531982, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -377,7 +378,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.2979126, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.2977905, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -450,8 +451,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Button text (play?)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
+  m_sharedMaterial: {fileID: 6803003060814531982, guid: 8d72ce24b3e842145a375cf509ef3b75, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
