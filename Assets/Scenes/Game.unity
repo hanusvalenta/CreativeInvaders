@@ -702,6 +702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Music: {fileID: 8300000, guid: bd303f4f99dce19429747b35cd59df34, type: 3}
+  MusicVolume: 0.1
+  ShouldLoop: 1
 --- !u!1 &1378080381
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,6 +899,8 @@ MonoBehaviour:
   firePoint: {fileID: 529100434}
   projectileSpeed: 10
   fireRate: 0.2
+  Beep: {fileID: 8300000, guid: 2d9d79fb03b119941a524e614bae2403, type: 3}
+  BeepVolume: 1
 --- !u!68 &1402826749
 EdgeCollider2D:
   m_ObjectHideFlags: 0

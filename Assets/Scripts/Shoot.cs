@@ -8,11 +8,22 @@ public class PlayerShooting : MonoBehaviour
     public float fireRate = 0.2f;
 
     private float nextFireTime = 0f;
+    
+    public AudioClip Beep;
+    
+    public float BeepVolume = 0.5f;
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
         {
+            if (Beep != null)
+        {
+            AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.clip = Beep;
+            audioSource.volume = BeepVolume;
+            audioSource.Play();
+        } 
             Shoot();
             nextFireTime = Time.time + fireRate;
         }
