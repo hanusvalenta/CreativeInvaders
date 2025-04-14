@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
+    public  Game instance;
     public AudioClip Music;
     public float MusicVolume = 0.5f;
     public bool ShouldLoop = true;
+    public  AudioClip Killed;
+    public  float KilledVolume = 0.5f;
+     AudioSource audioSourcedva;
     void Start()
     {
         if (Music != null)
@@ -18,6 +22,16 @@ public class Game : MonoBehaviour
             audioSource.Play();
         } 
     }
+
+    public void PlayKilledSound()
+    {
+        Debug.Log("PlayKilledSound called");
+        audioSourcedva = gameObject.AddComponent<AudioSource>();
+        audioSourcedva.clip = Killed;
+        audioSourcedva.volume = KilledVolume;
+        audioSourcedva.Play();
+    }
+
     void Update()
     {
         

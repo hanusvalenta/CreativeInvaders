@@ -154,6 +154,8 @@ MonoBehaviour:
   Music: {fileID: 8300000, guid: ab0a598b37cb1814183f053ff9235df7, type: 3}
   MusicVolume: 0.5
   ShouldLoop: 0
+  Killed: {fileID: 8300000, guid: 9e5cdbfb6e5fdfa458600f9ab24d0e59, type: 3}
+  KilledVolume: 0.5
 --- !u!4 &267318715
 Transform:
   m_ObjectHideFlags: 0

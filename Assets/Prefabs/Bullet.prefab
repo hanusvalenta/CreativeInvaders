@@ -128,6 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   lifeTime: 3
+  Beep: {fileID: 8300000, guid: 9e5cdbfb6e5fdfa458600f9ab24d0e59, type: 3}
+  BeepVolume: 0.5
 --- !u!61 &5431629760046906084
 BoxCollider2D:
   m_ObjectHideFlags: 0
