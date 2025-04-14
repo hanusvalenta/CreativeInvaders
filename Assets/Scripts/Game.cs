@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip Music;
     void Start()
     {
-        
+        if (Music != null)
+        {
+            AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.clip = Music;
+            audioSource.Play();
+        } 
     }
-
-    // Update is called once per frame
     void Update()
     {
         
