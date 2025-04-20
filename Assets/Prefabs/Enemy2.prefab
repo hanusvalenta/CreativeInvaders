@@ -177,5 +177,5 @@ MonoBehaviour:
   bottomY: -4
   deathSceneName: Death
   projectilePrefab: {fileID: 4076830559055898529, guid: 75c9b2e18b83a364abfc066122b07071, type: 3}
-  shootInterval: 2
+  shootInterval: 1
   projectileSpeed: 5

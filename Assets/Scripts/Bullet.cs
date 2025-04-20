@@ -1,9 +1,11 @@
 using UnityEngine;
 
-public class ProjectileCursor : MonoBehaviour
+public class PlayerProjectile : MonoBehaviour
 {
     public float speed = 10f;
     public float lifeTime = 3f;
+
+    public GameObject ballPrefab;
 
     void Start()
     {
@@ -27,7 +29,21 @@ public class ProjectileCursor : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            ScoreManager.instance.AddScore(100);
+            ScoreManager.instance.AddScore(50);
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+        
+        if (other.CompareTag("Enemy3"))
+        {
+            GameObject ball = Instantiate(ballPrefab, other.transform.position, Quaternion.identity);
+            Rigidbody2D ballRb = ball.GetComponent<Rigidbody2D>();
+            if (ballRb != null)
+            {
+                ballRb.velocity = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized * speed;
+            }
+
+            ScoreManager.instance.AddScore(50);
             Destroy(other.gameObject);
             Destroy(gameObject);
         }

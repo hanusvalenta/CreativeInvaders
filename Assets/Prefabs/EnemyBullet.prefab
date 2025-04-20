@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3546642889654147971}
   - component: {fileID: 1345902633766083266}
   - component: {fileID: 5431629760046906084}
-  - component: {fileID: 2386730453917871765}
+  - component: {fileID: 5716527110211333437}
   m_Layer: 0
   m_Name: EnemyBullet
   m_TagString: Untagged
@@ -159,7 +159,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7245245, y: 4.4649816}
   m_EdgeRadius: 0
---- !u!114 &2386730453917871765
+--- !u!114 &5716527110211333437
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,9 +168,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4076830559055898529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b66a009fef32af5418f8eff3b0ad22f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4205d97057eff324093b7e4c27e21dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  lifeTime: 3
-  ball: {fileID: 4076830559055898529, guid: 0987474f580fe9249989a3db0b7dd5f1, type: 3}
+  speed: 5
+  deathSceneName: Death

@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Projectile : MonoBehaviour
+public class EnemyProjectile : MonoBehaviour
 {
     public float speed = 5f;
+
+    public float lifeTime = 3f;
 
     public string deathSceneName = "Death";
 
@@ -14,6 +16,8 @@ public class Projectile : MonoBehaviour
         {
             rb.velocity = Vector2.down * speed;
         }
+
+        Destroy(gameObject, lifeTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)

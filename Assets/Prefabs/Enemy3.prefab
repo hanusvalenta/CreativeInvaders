@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4337141962546941820}
   m_Layer: 0
   m_Name: Enemy3
-  m_TagString: Enemy
+  m_TagString: Enemy3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,6 +176,6 @@ MonoBehaviour:
   dropSpeed: 0.5
   bottomY: -4
   deathSceneName: Death
-  projectilePrefab: {fileID: 4076830559055898529, guid: 47f9583d248a0f640b06e66ce28e52b3, type: 3}
-  shootInterval: 1
+  projectilePrefab: {fileID: 4076830559055898529, guid: 75c9b2e18b83a364abfc066122b07071, type: 3}
+  shootInterval: 2
   projectileSpeed: 5
