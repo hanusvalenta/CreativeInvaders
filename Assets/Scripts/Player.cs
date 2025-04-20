@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Player  : MonoBehaviour
 {
@@ -28,10 +29,5 @@ public class Player  : MonoBehaviour
         Vector2 direction = mousePosition - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
         transform.rotation = Quaternion.Euler(0, 0, angle);
-    }
-
-    public void ActivateBonus()
-    {
-        Debug.Log("Bonus Activated!");
     }
 }

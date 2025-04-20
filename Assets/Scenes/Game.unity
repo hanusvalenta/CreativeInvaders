@@ -899,6 +899,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 4076830559055898529, guid: 47f9583d248a0f640b06e66ce28e52b3, type: 3}
+  projectileTracingPrefab: {fileID: 4076830559055898529, guid: cdbd22f27d560c0438e5098f71bd01dc, type: 3}
+  bullet: {fileID: 4076830559055898529, guid: 47f9583d248a0f640b06e66ce28e52b3, type: 3}
   firePoint: {fileID: 529100434}
   projectileSpeed: 10
   fireRate: 0.2

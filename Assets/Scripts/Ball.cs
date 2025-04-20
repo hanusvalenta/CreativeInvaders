@@ -22,10 +22,10 @@ public class Ball : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Player player = other.GetComponent<Player>();
-            if (player != null)
+            Shooting shooting = other.GetComponent<Shooting>();
+            if (shooting != null)
             {
-                player.ActivateBonus();
+                shooting.ActivateBonus();
             }
         }
     }
