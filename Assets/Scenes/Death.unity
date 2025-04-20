@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b382e0acc473cf843a4feea9f6847429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFade: 0.5
-  fadeDuration: 10
+  delayBeforeFade: 1.5
+  fadeDuration: 20
   soundEffect: {fileID: 8300000, guid: 2f87693247ff8cc4bb9e6a6380c66891, type: 3}
 --- !u!1 &444305560
 GameObject:

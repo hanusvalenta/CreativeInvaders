@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Enemy : MonoBehaviour
+public class Enemy3 : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float moveDistance = 2f;
@@ -9,29 +9,45 @@ public class Enemy : MonoBehaviour
     public float bottomY = -4.5f;
     public string deathSceneName = "Death";
 
+    public GameObject projectilePrefab;
+    public float shootInterval = 2f;
+    public float projectileSpeed = 5f;
+
     private Vector2 startPos;
     private bool movingRight = true;
+    private float nextShootTime;
 
     void Start()
     {
         startPos = transform.position;
+        nextShootTime = Time.time + shootInterval;
     }
 
     void Update()
     {
         MoveEnemy();
         CheckGameOver();
+        Shoot();
     }
 
     void MoveEnemy()
     {
         float moveDirection = movingRight ? 1 : -1;
-        transform.Translate(Vector3.right * moveDirection * moveSpeed * Time.deltaTime);
+        transform.position += Vector3.right * moveDirection * moveSpeed * Time.deltaTime;
 
         if (Mathf.Abs(transform.position.x - startPos.x) >= moveDistance)
         {
             movingRight = !movingRight;
-            transform.Translate(Vector3.down * dropSpeed);
+            transform.position += Vector3.down * dropSpeed;
+        }
+    }
+
+    void Shoot()
+    {
+        if (Time.time >= nextShootTime)
+        {
+            Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            nextShootTime = Time.time + Random.Range(1f, 10f);
         }
     }
 
@@ -39,7 +55,7 @@ public class Enemy : MonoBehaviour
     {
         if (transform.position.y <= bottomY)
         {
-             SceneManager.LoadScene(deathSceneName);
+            SceneManager.LoadScene(deathSceneName);
         }
     }
 }

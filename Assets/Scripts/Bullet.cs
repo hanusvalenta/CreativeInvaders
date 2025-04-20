@@ -4,7 +4,7 @@ public class ProjectileCursor : MonoBehaviour
 {
     public float speed = 10f;
     public float lifeTime = 3f;
-    GameObject game;
+
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -27,9 +27,6 @@ public class ProjectileCursor : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            game = GameObject.Find("Game");
-            game.GetComponent<Game>().PlayKilledSound();
-
             ScoreManager.instance.AddScore(100);
             Destroy(other.gameObject);
             Destroy(gameObject);

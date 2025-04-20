@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Enemy2Movement : MonoBehaviour
+public class Enemy2 : MonoBehaviour
 {
     public float moveSpeed = 2f;
     public float moveDistance = 2f;

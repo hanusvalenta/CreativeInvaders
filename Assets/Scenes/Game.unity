@@ -154,9 +154,9 @@ MonoBehaviour:
   minSpawnTime: 1
   maxSpawnTime: 30
   enemyPrefabs:
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
+  - {fileID: 5433534193745399773, guid: a7c98795118689345a378afc36faf20e, type: 3}
+  - {fileID: 5433534193745399773, guid: 07872401ec21e2f439d0b3210152e809, type: 3}
+  - {fileID: 5433534193745399773, guid: c870b1cbf30d8364a85b27dbc6fafa84, type: 3}
 --- !u!4 &495845823
 Transform:
   m_ObjectHideFlags: 0
@@ -372,9 +372,9 @@ MonoBehaviour:
   minSpawnTime: 1
   maxSpawnTime: 30
   enemyPrefabs:
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
+  - {fileID: 5433534193745399773, guid: a7c98795118689345a378afc36faf20e, type: 3}
+  - {fileID: 5433534193745399773, guid: 07872401ec21e2f439d0b3210152e809, type: 3}
+  - {fileID: 5433534193745399773, guid: c870b1cbf30d8364a85b27dbc6fafa84, type: 3}
 --- !u!4 &577488374
 Transform:
   m_ObjectHideFlags: 0
@@ -504,9 +504,9 @@ MonoBehaviour:
   minSpawnTime: 1
   maxSpawnTime: 30
   enemyPrefabs:
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
+  - {fileID: 5433534193745399773, guid: a7c98795118689345a378afc36faf20e, type: 3}
+  - {fileID: 5433534193745399773, guid: 07872401ec21e2f439d0b3210152e809, type: 3}
+  - {fileID: 5433534193745399773, guid: c870b1cbf30d8364a85b27dbc6fafa84, type: 3}
 --- !u!4 &805033600
 Transform:
   m_ObjectHideFlags: 0
@@ -701,9 +701,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c936fb658bd06b46bc4a9c3247867ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instance: {fileID: 0}
   Music: {fileID: 8300000, guid: bd303f4f99dce19429747b35cd59df34, type: 3}
   MusicVolume: 0.1
   ShouldLoop: 1
+  Killed: {fileID: 0}
+  KilledVolume: 0.5
 --- !u!1 &1378080381
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,9 +739,9 @@ MonoBehaviour:
   minSpawnTime: 1
   maxSpawnTime: 30
   enemyPrefabs:
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
-  - {fileID: 5433534193745399773, guid: 0089b00dbdc67cc469ce764a4a01ca16, type: 3}
+  - {fileID: 5433534193745399773, guid: a7c98795118689345a378afc36faf20e, type: 3}
+  - {fileID: 5433534193745399773, guid: 07872401ec21e2f439d0b3210152e809, type: 3}
+  - {fileID: 5433534193745399773, guid: c870b1cbf30d8364a85b27dbc6fafa84, type: 3}
 --- !u!4 &1378080383
 Transform:
   m_ObjectHideFlags: 0
