@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class FadeInTMPText : MonoBehaviour
@@ -51,5 +52,10 @@ public class FadeInTMPText : MonoBehaviour
         Color c = tmpText.color;
         c.a = alpha;
         tmpText.color = c;
+    }
+
+    public void LoadGame()
+    {
+        SceneManager.LoadScene("Game");
     }
 }
