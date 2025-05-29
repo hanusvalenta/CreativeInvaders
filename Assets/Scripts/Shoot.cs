@@ -81,7 +81,7 @@ public class Shooting : MonoBehaviour
             fireRate = originalFireRate;
         }
 
-        Debug.Log("Bonus 1 activated!");
+        Debug.Log("Bonus 1");
     }
     void Bonus2()
     {
@@ -95,11 +95,10 @@ public class Shooting : MonoBehaviour
             bullet = originalBullet;
         }
 
-        Debug.Log("Bonus 2 activated!");
+        Debug.Log("Bonus 2");
     }
     void Bonus3()
     {
-        // Implement bonus 3 logic here
-        Debug.Log("Bonus 3 activated!");
+        Debug.Log("Bonus 3");
     }
 }

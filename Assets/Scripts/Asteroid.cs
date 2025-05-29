@@ -18,15 +18,6 @@ public class Asteroid : MonoBehaviour
         {
             rb.velocity = Vector2.down * speed;
         }
-        else
-        {
-            Debug.LogError("Asteroid requires a Rigidbody2D component!", this);
-        }
-
-        if (smallAsteroidPrefab == null)
-        {
-            Debug.LogError("Small Asteroid Prefab is not assigned in the Inspector!", this);
-        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

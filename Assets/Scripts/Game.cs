@@ -25,7 +25,6 @@ public class Game : MonoBehaviour
 
     public void PlayKilledSound()
     {
-        Debug.Log("PlayKilledSound called");
         audioSourcedva = gameObject.AddComponent<AudioSource>();
         audioSourcedva.clip = Killed;
         audioSourcedva.volume = KilledVolume;

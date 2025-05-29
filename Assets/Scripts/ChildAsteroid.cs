@@ -8,10 +8,6 @@ public class SmallAsteroid : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, lifeTime);
-        if (GetComponent<Rigidbody2D>() == null)
-        {
-            Debug.LogError("SmallAsteroid requires a Rigidbody2D component!", this);
-        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
